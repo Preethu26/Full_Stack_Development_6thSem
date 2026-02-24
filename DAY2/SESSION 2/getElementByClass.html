@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p class="info">Preetham KP</p>
+    <p class="info">Jayashankar P</p>
+    <h1>TAG SELECTOR DOM</h1>
+    <script>
+        let p=document.getElementsByClassName("info");
+        p[0].style.color="red";
+        p[1].style.color="Blue";
+        //operations
+        p[0].style.fontSize="25px";
+        p[1].style.fontWeight="bold";
+        p[1].style.border="2px solid black";
+
+        // Get ElementsByTags
+        let tag=document.getElementsByTagName("h1")
+        tag[0].textContent="Changed"
+
+    </script>
+</body>
+</html>
