@@ -1,0 +1,22 @@
+{
+  "name": "rest_api_product_manager",
+  "version": "1.0.0",
+  "description": "This is the REST_API project",
+  "repository": {
+    "type": "git",
+    "url": "Preethu26"
+  },
+  "license": "MIT",
+  "author": "PREETHAM KP",
+  "type": "commonjs",
+  "main": "Backend_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Backend_server.js",
+    "dev": "nodemon Backend_server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
