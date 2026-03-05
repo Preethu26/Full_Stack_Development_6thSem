@@ -1,13 +1,12 @@
 [
     {
-        "id":1,
-        "name":"Asus Vivobook",
-        "price":140
+        "id": 1,
+        "name": "Asus Vivobook",
+        "price": 140
     },
     {
-        "id":2,
-        "name":"HP",
-        "price":140
+        "id": 2,
+        "name": "HP",
+        "price": 140
     }
-
 ]
